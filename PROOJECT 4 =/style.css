@@ -1,0 +1,289 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    font-family: gilroy;
+    /* overflow: hidden; */
+    /* overflow: hidden; */
+}
+#nav{
+    height: 9%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    padding: 0 2.5vw;
+}
+#part1{
+    width: 60%;
+    /* background-color: aqua; */
+    align-items: center;
+    display: flex;
+    gap: .5px;
+}
+.gola{
+    height: 1.8vw;
+    width: 1.8vw;
+    
+    border-radius: 50%;
+    background-color: black;
+}
+#part2 h3 span{
+    color: grey;
+    margin: 4px;
+}
+#part2{
+    font-family: work sans;
+    font-size: 1vw;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: .8vw;
+    justify-content: space-evenly;
+}
+#part2 h3{
+    /* background-color: aqua; */
+    font-weight: 540;
+
+}
+#part2 i{
+    display: none;
+}
+#head{
+
+    height: 6%;
+    display: flex;
+    font-size: 10px;
+    gap: 40px;
+    padding: 1.2vw 2.5vw 0 3vw;
+    
+}
+#head h1{
+    font-family: work sans;
+
+    font-weight: 550;
+}
+#content
+{
+    height: 84%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+#text
+{   
+    width:100% ;
+    height: 45%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-top: 4vw;
+}
+.elem{
+    flex-shrink: 0;
+    /* border: 2px solid black; */
+    /* background-color: grey; */
+    height: 100%;
+    width: fit-content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-right: 10vw;
+}
+
+.A h2{
+    padding-top: .4vw;
+    font-size: 1.5vw;
+    /* margin-: 2vw; */
+    /* background-color: aqua; */
+    color: rgba(74, 73, 73, 0.735);
+}
+.B h1{
+    white-space: nowrap;
+    /* background-color: aqua; */
+    /* margin-right: 2vw; */
+    font-size: 10vw;
+    font-weight: 300;
+    
+}
+.num{
+    margin-right: 2vw;
+
+}
+#text::-webkit-scrollbar{
+   height: .3vw;
+}
+#text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+#image
+{
+    height: 56.2%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#image img:nth-child(2){
+    object-position: 0 10% ;
+
+}
+#image img:nth-child(3){
+    object-position: 0 28% ;
+
+}
+#image img:nth-child(4){
+    object-position: 0 40% ;
+
+}
+#image img:nth-child(6){
+    object-position: 0 24% ;
+
+}
+#image::-webkit-scrollbar{
+    display: none;
+}
+@media (max-width:600px) {
+    #main{
+        overflow: hidden;
+    }
+    #nav{
+        /* background-color: aquamarine; */
+        padding: 0 0vw 0 6vw;
+    }
+    .gola{
+        height: 3vw;
+        width: 3vw;
+    }
+
+    #part2 h3 span{
+        color: grey;
+        margin: 4px;
+    }
+    #part2{
+        /* background-color: aqua; */
+        font-size: 2vw; 
+        }
+    #part2 h3:nth-child(1)
+    {   margin-right:  -8vw;
+        display: initial;
+    }
+    #part2 h3{
+        display: none;
+    }
+    #part2 i{
+        display: initial;
+        font-size: 4vw;
+    }
+    #head{
+        height: 6%;
+        display: flex;
+        font-size: 1.1vw;
+        gap: 10px;
+        justify-content: center;
+        padding: 1.5vw 4vw 0 0;
+        /* background-color: aqua; */
+        
+    }
+    #head h1{
+        font-family: work sans;
+        font-weight: 540;
+    }
+    #content
+    {
+        height: 84%;
+        width: 100%;
+        /* font-family: work sans; */
+        /* background-color: aqua; */
+    }
+    #text
+{  width: 100%;
+        height: 35%;
+    /* background-color: antiquewhite; */
+    /* padding-left: 6vw; */
+    /* padding: 6vw; */
+}
+.elem{
+    /* border: 2px solid black; */
+    /* background-color: grey; */
+    justify-content: center;
+    margin-right: 14vw;
+    
+}
+
+.A h2{
+    padding-top: .4vw;
+    font-size: 4vw;
+    /* margin-: 2vw; */
+    /* background-color: aqua; */
+    color: rgba(74, 73, 73, 0.735);
+    
+}
+.B h1{
+    font-family: work sans;
+
+    white-space: nowrap;
+    /* background-color: aqua; */
+    /* margin-right: 2vw; */
+    font-size: 30vw;
+    font-weight: 300;
+    
+}
+.num{
+    font-family: work sans;
+    font-size: 3vw;
+    margin-right: 4vw;
+
+}
+#text::-webkit-scrollbar{
+   height: 1vw;
+}
+#text::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+#image
+{
+    height: 67%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+#image img{
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#image img:nth-child(2){
+    object-position: center ;
+
+}
+#image img:nth-child(3){
+    object-position: 0 28;
+
+}
+#image img:nth-child(4){
+    object-position: center ;
+
+}
+#image img:nth-child(6){
+    object-position: center ;
+
+}
+
+}
