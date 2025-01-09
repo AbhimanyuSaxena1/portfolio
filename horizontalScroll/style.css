@@ -10,12 +10,22 @@ html,body{
 #page1{
     height: 100%;
     width: 100%;
+    background-color: antiquewhite;
 }
-#page1{
+#page2 h1{
+    font-size: 40vw;
+    font-family: work sans;
+    font-weight: 400;
+    letter-spacing: -4vw;
+    white-space: nowrap;
+}
+#page2{
     height: 100%;
     width: 100%;
+    background-color: aqua;
 }
-#page1{
+#page3{
     height: 100%;
     width: 100%;
+    background-color: aquamarine;
 }
